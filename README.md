@@ -15,3 +15,4 @@
  - GitHub Email:
  
 ### AWS Contact
+Email: ek3575@nyu.edu

@@ -15,4 +15,5 @@
  - GitHub Email: rp3617@nyu.edu
  
 ### AWS Contact
-- ek3575@nyu.edu
+Email: ek3575@nyu.edu
+

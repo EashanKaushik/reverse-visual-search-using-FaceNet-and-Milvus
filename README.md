@@ -10,9 +10,10 @@
  - N#: N18032325
  - GitHub Email: 
 3. Rohan Jesalkumar Patel
- - NYU Email: 
- - N#: 
- - GitHub Email:
+ - NYU Email: rp3617@nyu.edu
+ - N#: N13328358
+ - GitHub Email: rp3617@nyu.edu
  
 ### AWS Contact
 Email: ek3575@nyu.edu
+

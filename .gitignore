@@ -143,3 +143,5 @@ version/
 *.pem
 *.ppk
 Student_group_9
+0004_milvus/
+0004_elasticknn/

@@ -134,3 +134,12 @@ Student_group_9.pem
 LFW/
 models/
 *.txt
+FaceNet/
+0001/
+0002/
+0004/
+AWS/
+version/
+*.pem
+*.ppk
+Student_group_9

@@ -143,3 +143,13 @@ version/
 *.pem
 *.ppk
 Student_group_9
+0004_milvus/
+0004_elasticknn/
+LFW/
+FaceNet/
+*.yml
+docker-compose.yml
+Resnet/
+*.csv
+*.json
+*.npy

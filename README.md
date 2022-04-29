@@ -1,5 +1,9 @@
 # Reverse-Visual-Search
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/50113394/165983370-99b91cdf-d3c4-40d0-98a0-ffbd5a2c3782.png" />
+</p>
+
 ## PROBLEM STATEMENT
 
 We have all played the game of “spot the difference” in which we need to find differences between two similar images. To build upon the context, can you find images that are similar to a given image? The google reverse image search is an apt description of what we are going to build today. Our problem statement is to find N similar images, given an input image.  
@@ -105,6 +109,7 @@ We see that all the images of Albert Costa have been found by our model. Thus, w
 [1] https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33
 [2]https://towardsdatascience.com/how-does-a-face-detection-program-work-using-neural-networks-17896df8e6ff
 [3] https://milvus.io/docs/image_similarity_search.md
+[4] https://aws.amazon.com/blogs/machine-learning/building-a-visual-search-application-with-amazon-sagemaker-and-amazon-es/
 
 ## Group Members
 

@@ -7,8 +7,8 @@
 </p>
 
 - To view the outputs for 10 query images in the notebook checkout: 
-1. query/Baseline_Model-Output.ipynb for output of BaseLine Model
-2. query/Improvement-final-Milvus.ipynb for output of Improved Model
+1. [Output of BaseLine Model]()
+2. [Output of Improved Model]()
 
 - For Detailed Documentation checkout : [Documentation](https://github.com/EashanKaushik/Reverse-Visual-Search/blob/main/Documentation.pdf)
 
@@ -55,7 +55,6 @@ For the purpose of developing a model from ground up we have developed three dif
   Figure 4: Baseline Model
 </p>
 
-Other outputs can be viewed here: https://drive.google.com/drive/folders/1lei2xt0TTgpJPy7agudtLli5m1QcvWJP?usp=sharing  
 
 ### Results for Baseline Model: 
 
@@ -71,7 +70,7 @@ Other outputs can be viewed here: https://drive.google.com/drive/folders/1lei2xt
   Figure 6: 20 Similar Faces for Carmen Electra
 </p>
 
-- Other outputs for baseline can be viewed here: https://drive.google.com/drive/folders/1lei2xt0TTgpJPy7agudtLli5m1QcvWJP?usp=sharing
+- Other outputs for baseline can be viewed here: [BaseLine Output](https://drive.google.com/drive/folders/1lei2xt0TTgpJPy7agudtLli5m1QcvWJP?usp=sharing)
 
 ## IMPROVED MODEL
 
@@ -207,70 +206,70 @@ Other outputs can be viewed here: https://drive.google.com/drive/folders/1lei2xt
 
 This project was completed on multiple machines: 
 
-1. Colab Pro (High Ram and GPU) for running notebooks for training.  
+## 1. Colab Pro (High Ram and GPU) for running notebooks for training.  
 
-a. model-training-baseline.ipynb  
+### a. model-training-baseline.ipynb  
 
-      Input LFW Dataset: http://vis-www.cs.umass.edu/lfw/lfw.tgz  
+Input LFW Dataset: [Input](http://vis-www.cs.umass.edu/lfw/lfw.tgz )  
+
+Output: [Output](https://drive.google.com/drive/folders/1CtLdASAT8FpboPUgcW-PXiFcO2hxKA5U?usp=sharing)  
       
-      Output: https://drive.google.com/drive/folders/1CtLdASAT8FpboPUgcW-PXiFcO2hxKA5U?usp=sharing  
-      
-b. model-training-facenet.ipynb  
+### b. model-training-facenet.ipynb  
 
-      Input: https://drive.google.com/drive/folders/1CtLdASAT8FpboPUgcW-PXiFcO2hxKA5U?usp=sharing 
-      
-      Output: https://drive.google.com/drive/folders/1M4_SrEPMRo9PSNLWzPHPHN0MpPD4uzjB?usp=sharing  
+Input: [Input](https://drive.google.com/drive/folders/1CtLdASAT8FpboPUgcW-PXiFcO2hxKA5U?usp=sharing)  
 
-2. EC2 Instance for Milvus.
+Output: [Output](https://drive.google.com/drive/folders/1M4_SrEPMRo9PSNLWzPHPHN0MpPD4uzjB?usp=sharing)  
 
-a. model-training-milvus.ipynb  
+## 2. EC2 Instance for Milvus.  
 
-      Input: 
-      - https://drive.google.com/drive/folders/1CtLdASAT8FpboPUgcW-PXiFcO2hxKA5U?usp=sharing  
-      - https://drive.google.com/drive/folders/1M4_SrEPMRo9PSNLWzPHPHN0MpPD4uzjB?usp=sharing
-      
-      Output: https://drive.google.com/drive/folders/1L8iRPSPjoj7VNnnVKdyKBatCrrHg33Lj?usp=sharing  
+### a. model-training-milvus.ipynb 
+
+Input:  
+- [Input1](https://drive.google.com/drive/folders/1CtLdASAT8FpboPUgcW-PXiFcO2hxKA5U?usp=sharing)  
+- [Input2](https://drive.google.com/drive/folders/1M4_SrEPMRo9PSNLWzPHPHN0MpPD4uzjB?usp=sharing)  
+
+Output: [Output](https://drive.google.com/drive/folders/1L8iRPSPjoj7VNnnVKdyKBatCrrHg33Lj?usp=sharing)  
      
-b. query/Improvement-final-Milvus.ipynb  
-     
-     Input: 
-            - https://drive.google.com/drive/folders/1xv_nYTJh9bp8PoEHL4tUhz1uUttaJIzt?usp=sharing  
-            - https://drive.google.com/drive/folders/1CtLdASAT8FpboPUgcW-PXiFcO2hxKA5U?usp=sharing  
-            - https://drive.google.com/drive/folders/1M4_SrEPMRo9PSNLWzPHPHN0MpPD4uzjB?usp=sharing  
-            
-      Output Final Model: https://drive.google.com/drive/folders/1PEhhrSg148WantGEzNJ0OQ1SWAG_pEQk?usp=sharing  
+### b. query/Improvement-final-Milvus.ipynb  
 
-3. Local Machine for running notebooks for generating outputs.  
+Input:  
+- [Input1](https://drive.google.com/drive/folders/1xv_nYTJh9bp8PoEHL4tUhz1uUttaJIzt?usp=sharing)  
+- [Input2](https://drive.google.com/drive/folders/1CtLdASAT8FpboPUgcW-PXiFcO2hxKA5U?usp=sharing)  
+- [Input3](https://drive.google.com/drive/folders/1M4_SrEPMRo9PSNLWzPHPHN0MpPD4uzjB?usp=sharing)  
 
-a. query/Preprocessing-Queries.ipynb  
+Output Final Model: [Output](https://drive.google.com/drive/folders/1PEhhrSg148WantGEzNJ0OQ1SWAG_pEQk?usp=sharing)  
 
-      Input: https://drive.google.com/drive/folders/1dyKkAIwg3PmbcaU_iKkiPY2E-WXdm07J?usp=sharing  
+## 3. Local Machine for running notebooks for generating outputs.  
+
+### a. query/Preprocessing-Queries.ipynb  
+
+Input: [Input](https://drive.google.com/drive/folders/1dyKkAIwg3PmbcaU_iKkiPY2E-WXdm07J?usp=sharing)  
+
+Output MTCNN: [Output](https://drive.google.com/drive/folders/1ly271yOxIV2NVgEgAPJerUfQY2UjIl17?usp=sharing)  
       
-      Output MTCNN: https://drive.google.com/drive/folders/1ly271yOxIV2NVgEgAPJerUfQY2UjIl17?usp=sharing  
+### b. query/Baseline_Model-Output.ipynb  
+
+Input:  
+- [Input1](https://drive.google.com/drive/folders/1xv_nYTJh9bp8PoEHL4tUhz1uUttaJIzt?usp=sharing)  
+- [Input2](https://drive.google.com/drive/folders/1CtLdASAT8FpboPUgcW-PXiFcO2hxKA5U?usp=sharing)  
+- [Input3](https://drive.google.com/drive/folders/1M4_SrEPMRo9PSNLWzPHPHN0MpPD4uzjB?usp=sharing)  
+
+Output Baseline Images: [Output](https://drive.google.com/drive/folders/1lei2xt0TTgpJPy7agudtLli5m1QcvWJP?usp=sharing)  
       
-b. query/Baseline_Model-Output.ipynb  
+### c. query/Improvement-final-FaceNet.ipynb    
 
-      Input:  
-            - https://drive.google.com/drive/folders/1xv_nYTJh9bp8PoEHL4tUhz1uUttaJIzt?usp=sharing  
-            - https://drive.google.com/drive/folders/1CtLdASAT8FpboPUgcW-PXiFcO2hxKA5U?usp=sharing  
-            - https://drive.google.com/drive/folders/1M4_SrEPMRo9PSNLWzPHPHN0MpPD4uzjB?usp=sharing  
-      
-      Output Baseline Images: https://drive.google.com/drive/folders/1lei2xt0TTgpJPy7agudtLli5m1QcvWJP?usp=sharing  
-      
-c. query/Improvement-final-FaceNet.ipynb    
+Input:  
+- [Input1](https://drive.google.com/drive/folders/1xv_nYTJh9bp8PoEHL4tUhz1uUttaJIzt?usp=sharing)  
+- [Input2](https://drive.google.com/drive/folders/1CtLdASAT8FpboPUgcW-PXiFcO2hxKA5U?usp=sharing)  
+- [Input3](https://drive.google.com/drive/folders/1M4_SrEPMRo9PSNLWzPHPHN0MpPD4uzjB?usp=sharing)  
 
-      Input:  
-            - https://drive.google.com/drive/folders/1xv_nYTJh9bp8PoEHL4tUhz1uUttaJIzt?usp=sharing  
-            - https://drive.google.com/drive/folders/1CtLdASAT8FpboPUgcW-PXiFcO2hxKA5U?usp=sharing  
-            - https://drive.google.com/drive/folders/1M4_SrEPMRo9PSNLWzPHPHN0MpPD4uzjB?usp=sharing  
-      
-      Output: https://drive.google.com/drive/folders/1NbkmzMMu8oT9WZvl3MyhbrvHVbP_Z8ph?usp=sharing  
+Output: [Output](https://drive.google.com/drive/folders/1NbkmzMMu8oT9WZvl3MyhbrvHVbP_Z8ph?usp=sharing)  
 
-### Step 1
+## Step 1
 
-Download the LFW Dataset: http://vis-www.cs.umass.edu/lfw/lfw.tgz
+Download the LFW Dataset: [Dataset](http://vis-www.cs.umass.edu/lfw/lfw.tgz)
 
-### Step 2
+## Step 2
 
 In this step we will generate embeddings for our training dataset which is essentially the entire LFW dataset. Also for comparison purposes we will get accuracy for our Baseline Model and Improved Model. Please Note that accuracy is not the correct term for this problem statement however just to compare models we have incorporated this into our experiments. We will split the LFW dataset into train and test images (however when we generate results for query images we will use the entire LFW dataset). Notebooks that are used in this step are as follows: 
 
@@ -278,7 +277,7 @@ In this step we will generate embeddings for our training dataset which is essen
     (2) model-training-facenet.ipynb (Colab)  
     (3) model-training-milvus.ipynb (EC2)  
 
-### Step 3
+## Step 3
 
 In this step we will get 20 similar faces for 10 query images. Query images are the first 10 images in http://vis-www.cs.umass.edu/lfw/number_6.html. The notebooks used in this section are as follows: 
 

@@ -20,9 +20,11 @@ There are two phases to the project
 
 ### Step 3
 
-Please note you can skip this step as it takes time to generate embeddings, you can skip to step 4 as all the outputs from this step are provided in Step 1 drive link. However if you want to test this part please run on Colab Pro having High Ram and GPU setting. To run these files you need to run the ipynb in proper sequence or else you might get an error, these ipynb files are present in training folder in drive link given in step 1.
+Please note you can skip this step as it takes time to generate embeddings, you can skip to step 4 as all the outputs from this step are provided in Step 1 drive link. However if you want to test this part please run on Colab Pro having High Ram and GPU run time. To run these files you need to run the ipynb in proper sequence or else you might get an error, these ipynb files are present in training folder in drive link given in step 1.
 
-    (1) Run  
+    (1) model-training-baseline.ipynb (Colab)  
+    (2) model-training-facenet.ipynb (Colab)  
+    (3) model-training-milvus.ipynb (EC2)  
 
 ### Step 4
 

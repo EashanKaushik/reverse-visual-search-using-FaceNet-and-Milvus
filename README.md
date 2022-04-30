@@ -4,6 +4,32 @@
   <img src="https://user-images.githubusercontent.com/50113394/165983370-99b91cdf-d3c4-40d0-98a0-ffbd5a2c3782.png" />
 </p>
 
+## Steps to Replicate Results:
+
+### Step 1
+Download the folder with all generated output for embeddings and query images: https://drive.google.com/drive/folders/1u4ESZFtd0NeOBaIDdRS3Bc2bgKr2qoEU?usp=sharing, all these files must be in a folder named "reverse-visual-search".
+
+### Step 2
+
+Download the LFW dataset and place it into the "reverse-visual-search" folder.
+
+### Note  
+There are two phases to the project   
+    (1) Training - This part was done on Colab Notebook and a bit difficult to replicate as it takes time to generate embeddings. The ipynb files are places in the training folder of the drive link in step 1.   
+    (2) Output Queries - This part was done on local machine and is quick and easy to replicate this part is placed in query folder of the drive link given in step 1. 
+
+### Step 3
+
+Please note you can skip this step as it takes time to generate embeddings, you can skip to step 4 as all the outputs from this step are provided in Step 1 drive link. However if you want to test this part please run on Colab Pro having High Ram and GPU setting. To run these files you need to run the ipynb in proper sequence or else you might get an error, these ipynb files are present in training folder in drive link given in step 1.
+
+    (1) Run  
+
+### Step 4
+
+In this step we will get 20 similar faces for 10 queries given in inputs folder in the drive link given in step 1. The ipynb notebooks are present in query folder in drive link. Sequence to get desired output.
+
+    (1)
+
 ## PROBLEM STATEMENT
 
 We have all played the game of “spot the difference” in which we need to find differences between two similar images. To build upon the context, can you find images that are similar to a given image? The google reverse image search is an apt description of what we are going to build today. Our problem statement is to find N similar images, given an input image.  

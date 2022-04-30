@@ -203,7 +203,7 @@ This project was completed on multiple machines:
 
 a. model-training-baseline.ipynb  
 
-      Input: LFW Dataset http://vis-www.cs.umass.edu/lfw/lfw.tgz  
+      Input LFW Dataset: http://vis-www.cs.umass.edu/lfw/lfw.tgz  
       
       Output: https://drive.google.com/drive/folders/1CtLdASAT8FpboPUgcW-PXiFcO2hxKA5U?usp=sharing  
       

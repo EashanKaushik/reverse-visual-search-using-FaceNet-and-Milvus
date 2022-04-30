@@ -243,10 +243,12 @@ In this step we will get 20 similar faces for 10 queries given in inputs folder 
 
 ## REFERENCES:
 
-[1] https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33
-[2]https://towardsdatascience.com/how-does-a-face-detection-program-work-using-neural-networks-17896df8e6ff
-[3] https://milvus.io/docs/image_similarity_search.md
-[4] https://aws.amazon.com/blogs/machine-learning/building-a-visual-search-application-with-amazon-sagemaker-and-amazon-es/
+[1] https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33  
+[2] https://towardsdatascience.com/how-does-a-face-detection-program-work-using-neural-networks-17896df8e6ff  
+[3] https://milvus.io/docs/image_similarity_search.md  
+[4] https://aws.amazon.com/blogs/machine-learning/building-a-visual-search-application-with-amazon-sagemaker-and-amazon-es/  
+[5] http://vis-www.cs.umass.edu/lfw/  
+
 
 ## Group Members
 

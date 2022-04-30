@@ -6,6 +6,10 @@
   Figure 1: Reverse Visual Search
 </p>
 
+- To view the outputs for 10 query images in the notebook checkout: 
+1. query/Baseline_Model-Output.ipynb for output of BaseLine Model
+2. query/Improvement-final-Milvus.ipynb for output of Improved Model
+
 ## PROBLEM STATEMENT
 
 We have all played the game of “spot the difference” in which we need to find differences between two similar images. To build upon the context, can you find images that are similar to a given image? The google reverse image search is an apt description of what we are trying to building in this project. Our problem statement is to find N similar images, given an input image.

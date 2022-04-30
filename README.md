@@ -7,8 +7,8 @@
 </p>
 
 - To view the outputs for 10 query images in the notebook checkout: 
-1. [Output of BaseLine Model]()
-2. [Output of Improved Model]()
+1. [Output of BaseLine Model](https://github.com/EashanKaushik/Reverse-Visual-Search/blob/main/query/Baseline_Model-Output.ipynb)
+2. [Output of Improved Model](https://github.com/EashanKaushik/Reverse-Visual-Search/blob/main/query/Improvement-final-Milvus.ipynb)
 
 - For Detailed Documentation checkout : [Documentation](https://github.com/EashanKaushik/Reverse-Visual-Search/blob/main/Documentation.pdf)
 
@@ -273,27 +273,27 @@ Download the LFW Dataset: [Dataset](http://vis-www.cs.umass.edu/lfw/lfw.tgz)
 
 In this step we will generate embeddings for our training dataset which is essentially the entire LFW dataset. Also for comparison purposes we will get accuracy for our Baseline Model and Improved Model. Please Note that accuracy is not the correct term for this problem statement however just to compare models we have incorporated this into our experiments. We will split the LFW dataset into train and test images (however when we generate results for query images we will use the entire LFW dataset). Notebooks that are used in this step are as follows: 
 
-    (1) model-training-baseline.ipynb (Colab)  
-    (2) model-training-facenet.ipynb (Colab)  
-    (3) model-training-milvus.ipynb (EC2)  
+(1) [model-training-baseline.ipynb](https://github.com/EashanKaushik/Reverse-Visual-Search/blob/main/model-training-baseline.ipynb) (Colab)  
+(2) [model-training-facenet.ipynb](https://github.com/EashanKaushik/Reverse-Visual-Search/blob/main/model-training-facenet.ipynb) (Colab)  
+(3) [model-training-milvus.ipynb](https://github.com/EashanKaushik/Reverse-Visual-Search/blob/main/model-training-milvus.ipynb) (EC2)  
 
 ## Step 3
 
 In this step we will get 20 similar faces for 10 query images. Query images are the first 10 images in http://vis-www.cs.umass.edu/lfw/number_6.html. The notebooks used in this section are as follows: 
 
-    (1) PreProcessing Step: query/Preprocessing-Queries.ipynb  (First notebook to run)  
-    (2) Baseline Model: query/Baseline_Model-Output.ipynb  
-    (3) Final Improvement: query/Improvement-final-FaceNet.ipynb, query/Improvement-final-Milvus.ipynb  
+(1) PreProcessing Step: [query/Preprocessing-Queries.ipynb](https://github.com/EashanKaushik/Reverse-Visual-Search/blob/main/query/Preprocessing-Queries.ipynb)  (First notebook to run)  
+(2) Baseline Model: [query/Baseline_Model-Output.ipynb](https://github.com/EashanKaushik/Reverse-Visual-Search/blob/main/query/Baseline_Model-Output.ipynb)  
+(3) Final Improvement: [query/Improvement-final-FaceNet.ipynb](https://github.com/EashanKaushik/Reverse-Visual-Search/blob/main/query/Improvement-final-FaceNet.ipynb), [query/Improvement-final-Milvus.ipynb](https://github.com/EashanKaushik/Reverse-Visual-Search/blob/main/query/Improvement-final-Milvus.ipynb)  
 
 ## REFERENCES:
 
-[1] https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33
-[2]https://towardsdatascience.com/how-does-a-face-detection-program-work-using-neural-networks-17896df8e6ff
-[3] https://milvus.io/docs/image_similarity_search.md
-[4] https://aws.amazon.com/blogs/machine-learning/building-a-visual-search-application-with-amazon-sagemaker-and-amazon-es/
-[5] http://vis-www.cs.umass.edu/lfw/
-[6] https://www.geeksforgeeks.org/facenet-using-facial-recognition-system/
-[7] https://milvus.io/docs/v2.0.x/overview.md
+[1] https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33   
+[2]https://towardsdatascience.com/how-does-a-face-detection-program-work-using-neural-networks-17896df8e6ff  
+[3] https://milvus.io/docs/image_similarity_search.md  
+[4] https://aws.amazon.com/blogs/machine-learning/building-a-visual-search-application-with-amazon-sagemaker-and-amazon-es/  
+[5] http://vis-www.cs.umass.edu/lfw/  
+[6] https://www.geeksforgeeks.org/facenet-using-facial-recognition-system/  
+[7] https://milvus.io/docs/v2.0.x/overview.md  
 
 ## Group Members
 

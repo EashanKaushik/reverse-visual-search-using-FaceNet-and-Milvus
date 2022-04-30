@@ -88,7 +88,7 @@ For the purpose of developing a model from ground up we have developed three dif
 <p align="center">
   <img src="https://user-images.githubusercontent.com/50113394/166089254-0162d2e4-b7cf-4189-bb0c-dcf13224c510.jpg" />
   <br>
-  Figure 10: Query Image Albert Costa
+  Figure 10: Albert Costa
 </p>
 
 <p align="center">

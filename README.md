@@ -65,6 +65,8 @@ Other outputs can be viewed here: https://drive.google.com/drive/folders/1lei2xt
   Figure 6: 20 Similar Faces for Carmen Electra
 </p>
 
+- Other outputs for baseline can be viewed here: https://drive.google.com/drive/folders/1lei2xt0TTgpJPy7agudtLli5m1QcvWJP?usp=sharing
+
 ## IMPROVED MODEL
 
 <p align="center">

@@ -249,16 +249,7 @@ b. query/Baseline_Model-Output.ipynb
       
       Output Baseline Images: https://drive.google.com/drive/folders/1lei2xt0TTgpJPy7agudtLli5m1QcvWJP?usp=sharing  
       
-c. query/Improvement-initial-Facenet&Knn.ipynb    
-
-      Input:  
-            - https://drive.google.com/drive/folders/1xv_nYTJh9bp8PoEHL4tUhz1uUttaJIzt?usp=sharing  
-            - https://drive.google.com/drive/folders/1CtLdASAT8FpboPUgcW-PXiFcO2hxKA5U?usp=sharing  
-            - https://drive.google.com/drive/folders/1M4_SrEPMRo9PSNLWzPHPHN0MpPD4uzjB?usp=sharing  
-      
-      Output Initial Improvement Images: https://drive.google.com/drive/folders/13GmQ4ZfTpzVI6XrDStE-43VEwAkidcmY?usp=sharing   
-      
-d. query/Improvement-final-FaceNet.ipynb    
+c. query/Improvement-final-FaceNet.ipynb    
 
       Input:  
             - https://drive.google.com/drive/folders/1xv_nYTJh9bp8PoEHL4tUhz1uUttaJIzt?usp=sharing  
@@ -285,8 +276,7 @@ In this step we will get 20 similar faces for 10 query images. Query images are 
 
     (1) PreProcessing Step: query/Preprocessing-Queries.ipynb  (First notebook to run)  
     (2) Baseline Model: query/Baseline_Model-Output.ipynb  
-    (3) Initial Improvement: query/Improvement-initial-Facenet&Knn.ipynb  
-    (4) Final Improvement: query/Improvement-final-FaceNet.ipynb, query/Improvement-final-Milvus.ipynb  
+    (3) Final Improvement: query/Improvement-final-FaceNet.ipynb, query/Improvement-final-Milvus.ipynb  
 
 ## REFERENCES:
 

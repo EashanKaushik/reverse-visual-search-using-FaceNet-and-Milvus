@@ -184,13 +184,13 @@ For the purpose of developing a model from ground up we have developed three dif
 <p align="center">
   <img src="https://user-images.githubusercontent.com/50113394/166089506-130aed25-8139-4c0a-86d0-4a49672715fb.jpg" />
   <br>
-  Figure 8: Cameron Diaz
+  Figure 26: Cameron Diaz
 </p>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/50113394/166089514-56b92b1c-4805-4afb-ba54-13997d973470.jpg" />
   <br>
-  Figure 9: 20 Similar Faces for Cameron Diaz
+  Figure 27: 20 Similar Faces for Cameron Diaz
 </p>
 
 # Steps to Replicate the Experiment:
